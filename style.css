@@ -4,7 +4,26 @@
     color: white;
 }
 
-p
+#para
 {
     background-color: red;
+}
+
+body
+{
+    background-image: url('night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+
+}
+
+h1
+{
+    color: red;
+}
+
+body
+{
+    color: white;
 }
