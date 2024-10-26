@@ -1,4 +1,10 @@
-body
+.divtesting
 {
-    background-image: url('comp.jpeg');
+    background-color: black;
+    color: white;
+}
+
+p
+{
+    background-color: red;
 }
