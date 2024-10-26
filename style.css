@@ -1,4 +1,9 @@
-h1,p
+.textColor
 {
-    color: orange;
+    color: blue;
+}
+
+.background
+{
+    background-color: aqua;
 }
