@@ -1,9 +1,4 @@
-.textColor
+body
 {
-    color: blue;
-}
-
-.background
-{
-    background-color: aqua;
+    background-image: url('comp.jpeg');
 }
