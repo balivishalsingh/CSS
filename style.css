@@ -1,18 +1,4 @@
-.container
+ul
 {
-    width: 200px;
-    height: 300px;
-    background-color: orangered;
-    overflow: scroll;
-}
-
-h1
-{
-    text-align: center;
-    cursor: pointer;
-}
-
-h1:hover
-{
-    color: orangered;
+    list-style-type: circle;
 }
