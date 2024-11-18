@@ -1,45 +1,30 @@
-.box
+.notice-board
 {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+    background-color: #eee;
+    height: 500px;
+    width: 450px;
+    overflow: hidden;
     position: relative;
-    animation-name: testAnimation;
-    animation-duration: 16s;
+    left: 40%;
+    top: 200px;
+    box-shadow: 5px 5px 10px royalblue;
+    padding: 5px;
+}
+.notice
+{
+    position: relative;
+    animation-name: noticeAnimation;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 
-@keyframes testAnimation {
-    0%
+@keyframes noticeAnimation {
+    from
     {
-        background-color: rgb(0, 253, 13);
-        top: 0px;
-        left: 0px;
+        top:0px;
     }
-    25%
+    to
     {
-        background-color: rgb(5, 255, 197);
-        top: 0px;
-        left: 300px;
+        top: -800px;
     }
-    50%
-    {
-        background-color: pink;
-        top: 300px;
-        left: 300px;
-    }
-    75%
-    {
-        background-color: rgb(238, 6, 199);
-        top: 300px;
-        left: 0px;
-    }
-    100%
-    {
-        background-color: rgb(255, 154, 3);
-        top: 0px;
-        left: 0px;
-    }
-
-
 }
