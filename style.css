@@ -9,5 +9,13 @@
 {
     height: 100px;
     width: 100%;
-    background-image: linear-gradient(to right,rgb(233, 42, 42),rgba(245, 165, 18, 0.855),rgb(208, 93, 208) );   
+    /* background-image: linear-gradient(to right,rgb(233, 42, 42),rgba(245, 165, 18, 0.855),rgb(208, 93, 208) );    */
+    background-image: radial-gradient(circle,red,green);
+}
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle,rgb(107, 50, 199),rgb(46, 221, 234),rgb(166, 127, 54));
 }
