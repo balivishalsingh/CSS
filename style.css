@@ -17,5 +17,5 @@
 {
     height: 200px;
     width: 200px;
-    background-image: radial-gradient(circle,rgb(107, 50, 199),rgb(46, 221, 234),rgb(166, 127, 54));
+    background-image:conic-gradient(red 45deg,green 90deg,yellow) ;
 }
