@@ -2,36 +2,21 @@
 {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-
-.nav-bar
+.box
 {
-overflow: hidden;
-background-color: royalblue;
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+    height: 50px;
 }
 
-.nav-bar a
+.parent
 {
-    float: left;
-    display: black;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+    background-color: black;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
 }
-
-.nav-bar a:hover
-{
-    background-color: hotpink;
-    transition: 0.5s;
-}
-
- @media screen and (max-width:600px){
-
-    .nav-bar a
-    {
-        
-        width: 100%;
-    }
-} 
