@@ -3,7 +3,7 @@ body
 background-color: royalblue;
 }
 
- @media screen and (min-width:750px)
+@media screen and (min-width:750px) and (max-width:1000px)
 {
     body
     {
@@ -16,18 +16,3 @@ background-color: royalblue;
         background-color: royalblue;
     }
 } 
-
-@media screen and (max-width:750px)
-{
-    body
-    {
-        background-color: rgb(4, 200, 254);
-    }
-
-    h1
-    {
-        color: white;
-        background-color: rgb(203, 18, 231);
-    }
-}
-
