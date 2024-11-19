@@ -1,18 +1,37 @@
-body
+*
 {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar
+{
+overflow: hidden;
 background-color: royalblue;
 }
 
-@media screen and (min-width:750px) and (max-width:1000px)
+.nav-bar a
 {
-    body
-    {
-        background-color: green;
-    }
+    float: left;
+    display: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
 
-    h1
+.nav-bar a:hover
+{
+    background-color: hotpink;
+    transition: 0.5s;
+}
+
+ @media screen and (max-width:600px){
+
+    .nav-bar a
     {
-        color: white;
-        background-color: royalblue;
+        
+        width: 100%;
     }
 } 
