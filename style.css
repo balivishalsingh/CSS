@@ -12,10 +12,11 @@
 }
 .notice
 {
-    position: relative;
-    animation-name: noticeAnimation;
+     position: relative;
+    /* animation-name: noticeAnimation;
     animation-duration: 25s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;  */
+    animation: noticeAnimation 25s 2s infinite;
 }
 
 @keyframes noticeAnimation {
