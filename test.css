@@ -1,22 +1,4 @@
-*
+.alert-primary
 {
-    margin: 0px;
-    padding: 0px;
-}
-.box
-{
-    background-color: red;
-    padding: 20px;
-    margin: 10px;
-    width: 60px;
-    height: 50px;
-}
-
-.parent
-{
-    background-color: black;
-    display: flex;
-    height: 450px;
-    align-items: center;
-    justify-content: center;
+    color: white;
 }
